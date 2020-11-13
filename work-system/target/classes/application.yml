@@ -1,0 +1,8 @@
+server:
+  port: 8080   #端口号
+spring:        #数据库链接
+  datasource:
+    username: root
+    password: 2580
+    url: jdbc:mysql://127.0.0.1:3306/work
+    driver-class-name: com.mysql.jdbc.Driver
